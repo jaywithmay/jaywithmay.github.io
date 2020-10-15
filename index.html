@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119269337-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-119269337-2');
@@ -197,6 +201,25 @@
             <div class="image fit">
                 <img src="images/ours/Asset%202.png" alt=""/>
             </div>
+            <div class="image fit">
+                <table>
+                    <tr>
+                        <td>
+                            <p style="text-align: center; font-family: 'Noto Serif KR', sans-serif; font-size: large">
+                                축하 메시지 남기기</p>
+                            <div id="disqus_thread"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <script>
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://jaywithmay.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
 
         </div>
     </div>
